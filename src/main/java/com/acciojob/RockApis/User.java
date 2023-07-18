@@ -8,6 +8,8 @@ public class User {
 
     private int age;
 
+    private String country;
+
     private String emailId;
 
     private String mobNo;
@@ -15,13 +17,23 @@ public class User {
     public User() {
     }
 
-    public User(int id, String name, int age, String emailId, String mobNo) {
-        this.userId = id;
+    public String getCountry() {
+        return country;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
+    }
+
+    public User(int userId, String name, int age, String country, String emailId, String mobNo) {
+        this.userId = userId;
         this.name = name;
         this.age = age;
+        this.country = country;
         this.emailId = emailId;
         this.mobNo = mobNo;
     }
+
 
     public int getUserId() {
         return userId;
