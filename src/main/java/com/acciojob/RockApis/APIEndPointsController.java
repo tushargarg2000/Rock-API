@@ -15,7 +15,7 @@ import java.util.HashMap;
 import java.util.List;
 
 @RestController
-public class APIEndPoints {
+public class APIEndPointsController {
 
 
     HashMap<Integer,User> userDb = new HashMap<>();
@@ -99,9 +99,9 @@ public class APIEndPoints {
 
         return "users with the name "+name+" have been removed ";
 
-
-
     }
+
+
 
 
 
