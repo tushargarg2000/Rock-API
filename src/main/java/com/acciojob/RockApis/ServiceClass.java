@@ -15,6 +15,7 @@ public class ServiceClass {
 
     public String addTravelListItem(TravelList item){
 
+        System.out.println(repositoryClassObj);
         return repositoryClassObj.addTravelListItem(item);
 
     }

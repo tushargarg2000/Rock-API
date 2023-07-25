@@ -28,7 +28,7 @@ public class ControllerClass {
     @GetMapping("/getTravelPlacesList")
     public List<String> getTravelPlacesList(@RequestParam("userId")Integer userId){
 
-
+        return null;
 
     }
 
